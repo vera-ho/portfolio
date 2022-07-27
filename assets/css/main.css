@@ -2701,5 +2701,13 @@ input, select, textarea {
 
 	}
 
+.skills-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+}
+
 /* f08223 orange */
 /* d96815 button */
