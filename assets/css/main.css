@@ -1833,8 +1833,28 @@ input, select, textarea {
 			border: 0;
 		}
 
-/* Form */
+	ul.contact-icons {
+		cursor: default;
+		list-style: none;
+		padding-left: 0;
+	}
 
+	ul.contact-icons li {
+		display: inline-block;
+		padding-left: 0;
+	}
+
+	ul.contact-icons a {
+		display: inline-block;
+		width: 2em;
+		height: 2em;
+		line-height: 2em;
+		text-align: center;
+		border: 0;
+	}
+
+/* Form */
+/* 
 	form label {
 		display: block;
 		text-align: left;
@@ -1902,7 +1922,7 @@ input, select, textarea {
 
 	form ::-moz-focus-inner {
 		border: 0;
-	}
+	} */
 
 /* Table */
 
