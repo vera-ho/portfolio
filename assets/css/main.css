@@ -175,7 +175,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #E27689;
+			color: #f08223;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -1987,7 +1987,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #9ececc;
+			background-color: #f08223;
 		}
 
 		input[type="button"]:active,
@@ -2190,7 +2190,7 @@ input, select, textarea {
 				}
 
 					#nav ul li a.active span:before {
-						color: #e27689;
+						color: #f08223;
 					}
 
 /* Footer */
@@ -2661,3 +2661,56 @@ input, select, textarea {
 	margin: 0 5px;
 	line-height: 1.3rem;
 }
+
+.splash-text {
+	/* width: 100%; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.splash-text-right {
+	width: 65%;
+}
+	@media screen and (min-width: 961px) and (max-width: 1880px) {
+
+		.splash-text-right {
+			/* width: 1200px; */
+		}
+
+	}
+
+	@media screen and (min-width: 961px) and (max-width: 1620px) {
+
+		.splash-text-right {
+			/* width: 960px; */
+		}
+
+	}
+
+	@media screen and (min-width: 961px) and (max-width: 1320px) {
+
+		.splash-text-right {
+			/* width: 100%; */
+		}
+
+	}
+
+	@media screen and (max-width: 960px) {
+
+		.splash-text-right {
+			/* width: 100%; */
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.splash-text-right {
+			/* width: 100%; */
+		}
+
+	}
+
+/* f08223 orange */
