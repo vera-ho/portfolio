@@ -2651,3 +2651,10 @@ input, select, textarea {
 				}
 
 	}
+
+/* Added by Vera Ho */
+.project-description {
+	font-size: 16px;
+	margin: 0 5px;
+	line-height: 1.3rem;
+}
