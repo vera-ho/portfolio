@@ -1968,7 +1968,7 @@ input, select, textarea {
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8ebebc;
+		background-color: #d96815;
 		border: 0;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -2674,25 +2674,8 @@ input, select, textarea {
 	width: 65%;
 }
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
-
-		.splash-text-right {
-			/* width: 1200px; */
-		}
-
-	}
-
-	@media screen and (min-width: 961px) and (max-width: 1620px) {
-
-		.splash-text-right {
-			/* width: 960px; */
-		}
-
-	}
-
-	@media screen and (min-width: 961px) and (max-width: 1320px) {
-
-		.splash-text-right {
-			/* width: 100%; */
+		.splash-text-right > header {
+			padding-top: 10em;
 		}
 
 	}
@@ -2701,6 +2684,7 @@ input, select, textarea {
 
 		.splash-text-right {
 			/* width: 100%; */
+			color: #fff;
 		}
 
 	}
@@ -2709,8 +2693,10 @@ input, select, textarea {
 
 		.splash-text-right {
 			/* width: 100%; */
+			color: #fff;
 		}
 
 	}
 
 /* f08223 orange */
+/* d96815 button */
