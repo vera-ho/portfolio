@@ -2015,6 +2015,10 @@ input, select, textarea {
 			.item header h3 {
 				font-size: 1em;
 			}
+	
+	.item:hover header h3 {
+		color: #f08223;
+	}
 
 /* Icons */
 
@@ -2718,11 +2722,12 @@ input, select, textarea {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 }
 	.project-repo-info a {
 		align-items: center;
 		margin-right: 5px;
+		border: none;
 	}
 	
 	.project-repo-info p {
