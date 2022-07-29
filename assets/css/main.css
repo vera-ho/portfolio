@@ -2737,5 +2737,15 @@ input, select, textarea {
 		line-height: 1.3rem;
 	}
 
+.about-me-container {
+	display: flex;
+	flex-direction: row;
+}
+
+	.about-me-details {
+		padding-left: 2.5em;
+		text-align: left;
+	}
+
 /* #f08223 hover orange */
 /* #d96815 button orange */
