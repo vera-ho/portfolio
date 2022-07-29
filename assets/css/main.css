@@ -2747,5 +2747,11 @@ input, select, textarea {
 		text-align: left;
 	}
 
+	.about-me-text,
+	.about-me-edu-prof {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
 /* #f08223 hover orange */
 /* #d96815 button orange */
