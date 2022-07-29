@@ -2709,5 +2709,28 @@ input, select, textarea {
 	grid-row-gap: 10px;
 }
 
-/* f08223 orange */
-/* d96815 button */
+.project-repo-info {
+	box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+	margin-bottom: 40px;
+	background: #fff;
+	padding: 10px;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+	.project-repo-info a {
+		align-items: center;
+		margin-right: 5px;
+	}
+	
+	.project-repo-info p {
+		margin: 0;
+		padding: 1em 0 1em 0;
+		font-size: 16px;
+		line-height: 1.3rem;
+	}
+
+/* #f08223 hover orange */
+/* #d96815 button orange */
